@@ -1,6 +1,6 @@
 # Awesome-Prompt-Repositories
 
-# Top Prompt Repositories Ecosystem
+## Top Prompt Repositories Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on Prompt Versioning, Local-First Registries & LLMOps Integration*  
