@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0d17" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#070a12" />
+    </linearGradient>
+
+    <!-- Glowing Orbs Gradients -->
+    <radialGradient id="orbGlow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.35" />
+      <stop offset="60%" stop-color="#6366f1" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="orbGlow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ec4899" stop-opacity="0.3" />
+      <stop offset="60%" stop-color="#ec4899" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="orbGlow3" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.3" />
+      <stop offset="60%" stop-color="#06b6d4" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Text Linear Gradients -->
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="45%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#f472b6" />
+    </linearGradient>
+
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#60a5fa" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+
+    <linearGradient id="pillGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#312e81" stop-opacity="0.5" />
+    </linearGradient>
+    
+    <linearGradient id="pillGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#083344" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#164e63" stop-opacity="0.5" />
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="gridPattern" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="0.75" stroke-opacity="0.25" />
+      <circle cx="40" cy="40" r="1.2" fill="#475569" fill-opacity="0.4" />
+    </pattern>
+
+    <!-- Animations -->
+    <style>
+      @keyframes floatSlow {
+        0%, 100% { transform: translateY(0px) scale(1); }
+        50% { transform: translateY(-12px) scale(1.05); }
+      }
+      @keyframes floatReverse {
+        0%, 100% { transform: translateY(0px) scale(1); }
+        50% { transform: translateY(12px) scale(1.04); }
+      }
+      @keyframes flowDash {
+        to { stroke-dashoffset: -100; }
+      }
+      @keyframes pulseLight {
+        0%, 100% { opacity: 0.3; }
+        50% { opacity: 0.65; }
+      }
+      @keyframes cardSway1 {
+        0%, 100% { transform: translate(0, 0); }
+        50% { transform: translate(-4px, -6px); }
+      }
+      @keyframes cardSway2 {
+        0%, 100% { transform: translate(0, 0); }
+        50% { transform: translate(4px, -6px); }
+      }
+      .anim-orb-1 { animation: floatSlow 10s ease-in-out infinite; }
+      .anim-orb-2 { animation: floatReverse 12s ease-in-out infinite; }
+      .anim-orb-3 { animation: floatSlow 8s ease-in-out infinite; }
+      .anim-flow { animation: flowDash 3s linear infinite; }
+      .anim-pulse { animation: pulseLight 4s ease-in-out infinite; }
+      .anim-pill-1 { animation: cardSway1 6s ease-in-out infinite; }
+      .anim-pill-2 { animation: cardSway2 7s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <!-- Background Layer -->
+  <rect width="100%" height="100%" fill="url(#bgGrad)" />
+  <rect width="100%" height="100%" fill="url(#gridPattern)" />
+
+  <!-- Animated Ambient Orbs in Background -->
+  <circle class="anim-orb-1" cx="220" cy="120" r="180" fill="url(#orbGlow1)" />
+  <circle class="anim-orb-2" cx="980" cy="140" r="210" fill="url(#orbGlow2)" />
+  <circle class="anim-orb-3" cx="600" cy="350" r="160" fill="url(#orbGlow3)" />
+
+  <!-- Dynamic Circuit Flow Lines (Background Tech Texture) -->
+  <g class="anim-pulse" opacity="0.4">
+    <path class="anim-flow" d="M 50 100 Q 300 40, 600 80 T 1150 100" fill="none" stroke="#6366f1" stroke-width="1.8" stroke-dasharray="8, 12" />
+    <path class="anim-flow" d="M 50 320 Q 400 370, 750 310 T 1150 330" fill="none" stroke="#06b6d4" stroke-width="1.8" stroke-dasharray="6, 14" />
+  </g>
+
+  <!-- Floating Feature Badges (Edges, Foreground Kept Free) -->
+  <g class="anim-pill-1" transform="translate(60, 45)">
+    <rect width="165" height="34" rx="17" fill="url(#pillGrad1)" stroke="#6366f1" stroke-width="1.2" stroke-opacity="0.6"/>
+    <text x="82" y="21" fill="#c7d2fe" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600" text-anchor="middle" letter-spacing="0.5">⚡ PROMPT REGISTRY</text>
+  </g>
+
+  <g class="anim-pill-2" transform="translate(975, 45)">
+    <rect width="165" height="34" rx="17" fill="url(#pillGrad2)" stroke="#06b6d4" stroke-width="1.2" stroke-opacity="0.6"/>
+    <text x="82" y="21" fill="#a5f3fc" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600" text-anchor="middle" letter-spacing="0.5">🔄 VERSION CONTROL</text>
+  </g>
+
+  <g class="anim-pill-2" transform="translate(70, 340)">
+    <rect width="150" height="34" rx="17" fill="url(#pillGrad2)" stroke="#0ea5e9" stroke-width="1.2" stroke-opacity="0.6"/>
+    <text x="75" y="21" fill="#bae6fd" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600" text-anchor="middle" letter-spacing="0.5">🛠️ LLMOPS & CI/CD</text>
+  </g>
+
+  <g class="anim-pill-1" transform="translate(990, 340)">
+    <rect width="145" height="34" rx="17" fill="url(#pillGrad1)" stroke="#ec4899" stroke-width="1.2" stroke-opacity="0.6"/>
+    <text x="72" y="21" fill="#fbcfe8" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600" text-anchor="middle" letter-spacing="0.5">🔒 LOCAL-FIRST</text>
+  </g>
+
+  <!-- Central Foreground Content (Unobscured & High Contrast) -->
+  <g transform="translate(600, 195)" text-anchor="middle">
+    <!-- Icon / Monogram -->
+    <g transform="translate(0, -95)">
+      <circle cx="0" cy="0" r="32" fill="#1e1b4b" stroke="url(#accentGrad)" stroke-width="2.5" />
+      <path d="M -12 -8 L -4 0 L -12 8 M 2 8 L 12 8" fill="none" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+
+    <!-- Main Title -->
+    <text y="-25" fill="url(#titleGrad)" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="44" font-weight="800" letter-spacing="-0.5">Awesome Prompt Repositories</text>
+    
+    <!-- Subtitle -->
+    <text y="20" fill="#f8fafc" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="600" letter-spacing="0.2">Top Prompt Registries, Version Control &amp; LLMOps Ecosystem</text>
+    
+    <!-- Tagline Description -->
+    <text y="54" fill="#94a3b8" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="400" letter-spacing="0.3">Curated List of SaaS Platforms &amp; Open-Source Projects for Prompt Engineering Teams</text>
+    
+    <!-- Decorative Divider Line -->
+    <line x1="-180" y1="80" x2="180" y2="80" stroke="url(#accentGrad)" stroke-width="2" stroke-linecap="round" opacity="0.8" />
+  </g>
+</svg>
