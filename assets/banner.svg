@@ -77,9 +77,21 @@
         0%, 100% { transform: translate(0, 0); }
         50% { transform: translate(4px, -6px); }
       }
-      .anim-orb-1 { animation: floatSlow 10s ease-in-out infinite; }
-      .anim-orb-2 { animation: floatReverse 12s ease-in-out infinite; }
-      .anim-orb-3 { animation: floatSlow 8s ease-in-out infinite; }
+      .anim-orb-1 {
+        transform-box: fill-box;
+        transform-origin: center;
+        animation: floatSlow 10s ease-in-out infinite;
+      }
+      .anim-orb-2 {
+        transform-box: fill-box;
+        transform-origin: center;
+        animation: floatReverse 12s ease-in-out infinite;
+      }
+      .anim-orb-3 {
+        transform-box: fill-box;
+        transform-origin: center;
+        animation: floatSlow 8s ease-in-out infinite;
+      }
       .anim-flow { animation: flowDash 3s linear infinite; }
       .anim-pulse { animation: pulseLight 4s ease-in-out infinite; }
       .anim-pill-1 { animation: cardSway1 6s ease-in-out infinite; }
@@ -103,24 +115,32 @@
   </g>
 
   <!-- Floating Feature Badges (Edges, Foreground Kept Free) -->
-  <g class="anim-pill-1" transform="translate(60, 45)">
-    <rect width="165" height="34" rx="17" fill="url(#pillGrad1)" stroke="#6366f1" stroke-width="1.2" stroke-opacity="0.6"/>
-    <text x="82" y="21" fill="#c7d2fe" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600" text-anchor="middle" letter-spacing="0.5">⚡ PROMPT REGISTRY</text>
+  <g transform="translate(60, 45)">
+    <g class="anim-pill-1">
+      <rect width="165" height="34" rx="17" fill="url(#pillGrad1)" stroke="#6366f1" stroke-width="1.2" stroke-opacity="0.6"/>
+      <text x="82.5" y="17" fill="#c7d2fe" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600" text-anchor="middle" dominant-baseline="central" letter-spacing="0.5">⚡ PROMPT REGISTRY</text>
+    </g>
   </g>
 
-  <g class="anim-pill-2" transform="translate(975, 45)">
-    <rect width="165" height="34" rx="17" fill="url(#pillGrad2)" stroke="#06b6d4" stroke-width="1.2" stroke-opacity="0.6"/>
-    <text x="82" y="21" fill="#a5f3fc" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600" text-anchor="middle" letter-spacing="0.5">🔄 VERSION CONTROL</text>
+  <g transform="translate(975, 45)">
+    <g class="anim-pill-2">
+      <rect width="165" height="34" rx="17" fill="url(#pillGrad2)" stroke="#06b6d4" stroke-width="1.2" stroke-opacity="0.6"/>
+      <text x="82.5" y="17" fill="#a5f3fc" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600" text-anchor="middle" dominant-baseline="central" letter-spacing="0.5">🔄 VERSION CONTROL</text>
+    </g>
   </g>
 
-  <g class="anim-pill-2" transform="translate(70, 340)">
-    <rect width="150" height="34" rx="17" fill="url(#pillGrad2)" stroke="#0ea5e9" stroke-width="1.2" stroke-opacity="0.6"/>
-    <text x="75" y="21" fill="#bae6fd" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600" text-anchor="middle" letter-spacing="0.5">🛠️ LLMOPS & CI/CD</text>
+  <g transform="translate(60, 340)">
+    <g class="anim-pill-2">
+      <rect width="165" height="34" rx="17" fill="url(#pillGrad2)" stroke="#0ea5e9" stroke-width="1.2" stroke-opacity="0.6"/>
+      <text x="82.5" y="17" fill="#bae6fd" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600" text-anchor="middle" dominant-baseline="central" letter-spacing="0.5">🛠️ LLMOPS &amp; CI/CD</text>
+    </g>
   </g>
 
-  <g class="anim-pill-1" transform="translate(990, 340)">
-    <rect width="145" height="34" rx="17" fill="url(#pillGrad1)" stroke="#ec4899" stroke-width="1.2" stroke-opacity="0.6"/>
-    <text x="72" y="21" fill="#fbcfe8" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600" text-anchor="middle" letter-spacing="0.5">🔒 LOCAL-FIRST</text>
+  <g transform="translate(975, 340)">
+    <g class="anim-pill-1">
+      <rect width="165" height="34" rx="17" fill="url(#pillGrad1)" stroke="#ec4899" stroke-width="1.2" stroke-opacity="0.6"/>
+      <text x="82.5" y="17" fill="#fbcfe8" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600" text-anchor="middle" dominant-baseline="central" letter-spacing="0.5">🔒 LOCAL-FIRST</text>
+    </g>
   </g>
 
   <!-- Central Foreground Content (Unobscured & High Contrast) -->
