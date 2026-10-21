@@ -60,84 +60,84 @@ Below is a comparison of top hosted prompt management platforms, sorted descendi
 
 ## 💻 Open-Source GitHub Projects
 
-Curated open-source prompt repositories, registries, and LLMOps frameworks. Sorted descending by **GitHub Stars**:
+Curated open-source prompt repositories, registries, and LLMOps frameworks. Sorted descending by **GitHub_Stars**:
 
-### 1. 🥇 [Langfuse](https://github.com/langfuse/langfuse) [![GitHub stars](https://img.shields.io/github/stars/langfuse/langfuse?style=social&color=white)](https://github.com/langfuse/langfuse/stargazers)
+### 1. 🥇 [Langfuse](https://github.com/langfuse/langfuse) [![GitHub_Stars](https://img.shields.io/github/stars/langfuse/langfuse?style=social&color=white)](https://github.com/langfuse/langfuse/stargazers)
 * **License:** MIT | **Stars:** ~36.1k+ ⭐
 * **Core Capabilities:** The leading open-source AI engineering and LLMOps platform with natively integrated prompt management. Prompts are centrally stored, labeled (e.g. `production`, `staging`), and versioned with client-side SDK caching to eliminate network latency on runtime fetches.
 * **Why Teams Choose It:** Seamlessly connects prompts to production traces, LLM-as-a-judge evals, and playground experiments in a 100% self-hostable container stack without vendor lock-in.
 
-### 2. 🥈 [promptfoo](https://github.com/promptfoo/promptfoo) [![GitHub stars](https://img.shields.io/github/stars/promptfoo/promptfoo?style=social&color=white)](https://github.com/promptfoo/promptfoo/stargazers)
+### 2. 🥈 [promptfoo](https://github.com/promptfoo/promptfoo) [![GitHub_Stars](https://img.shields.io/github/stars/promptfoo/promptfoo?style=social&color=white)](https://github.com/promptfoo/promptfoo/stargazers)
 * **License:** MIT | **Stars:** ~26.2k+ ⭐
 * **Core Capabilities:** CLI and testing framework for automated prompt evaluation, regression testing, and security red-teaming. Define prompts as templates, run test matrices across 50+ LLM providers, and assert deterministic or semantic outputs.
 * **Why Teams Choose It:** Fast, lightweight, runs locally in CI/CD pipelines (GitHub Actions, GitLab CI), catching prompt regressions and jailbreaks before code merges.
 
-### 3. 🥉 [Opik](https://github.com/comet-ml/opik) [![GitHub stars](https://img.shields.io/github/stars/comet-ml/opik?style=social&color=white)](https://github.com/comet-ml/opik/stargazers)
+### 3. 🥉 [Opik](https://github.com/comet-ml/opik) [![GitHub_Stars](https://img.shields.io/github/stars/comet-ml/opik?style=social&color=white)](https://github.com/comet-ml/opik/stargazers)
 * **License:** Apache-2.0 | **Stars:** ~22.8k+ ⭐
 * **Core Capabilities:** Open-source platform by Comet ML for evaluating, testing, and monitoring LLM applications and prompt repositories. Features prompt library versioning, automated evaluation metrics, and end-to-end distributed tracing.
 * **Why Teams Choose It:** Enterprise-grade scalability for high-throughput LLM pipelines, combined with a modern UI and deep Python/TypeScript SDKs.
 
-### 4. 🚀 [Phoenix](https://github.com/Arize-ai/phoenix) [![GitHub stars](https://img.shields.io/github/stars/Arize-ai/phoenix?style=social&color=white)](https://github.com/Arize-ai/phoenix/stargazers)
+### 4. 🚀 [Phoenix](https://github.com/Arize-ai/phoenix) [![GitHub_Stars](https://img.shields.io/github/stars/Arize-ai/phoenix?style=social&color=white)](https://github.com/Arize-ai/phoenix/stargazers)
 * **License:** Apache-2.0 | **Stars:** ~11.9k+ ⭐
 * **Core Capabilities:** AI observability and evaluation platform created by Arize AI. Provides prompt playground experimentation, OpenTelemetry-based distributed tracing, RAG analysis, and dataset management.
 * **Why Teams Choose It:** Notebook-friendly, local-first deployment via single pip install or Docker container, ideal for data science teams iterating on complex prompt topologies.
 
-### 5. 🔍 [OpenLLMetry](https://github.com/traceloop/openllmetry) [![GitHub stars](https://img.shields.io/github/stars/traceloop/openllmetry?style=social&color=white)](https://github.com/traceloop/openllmetry/stargazers)
+### 5. 🔍 [OpenLLMetry](https://github.com/traceloop/openllmetry) [![GitHub_Stars](https://img.shields.io/github/stars/traceloop/openllmetry?style=social&color=white)](https://github.com/traceloop/openllmetry/stargazers)
 * **License:** Apache-2.0 | **Stars:** ~7.5k+ ⭐
 * **Core Capabilities:** OpenTelemetry-native instrumentation and prompt management extension by Traceloop. Standardizes telemetry collection across LangChain, LlamaIndex, OpenAI, Anthropic, and Bedrock.
 * **Why Teams Choose It:** Vendor-neutral prompt telemetry that exports directly to Datadog, Dynatrace, Honeycomb, or any OTel collector.
 
-### 6. 🛡️ [Helicone](https://github.com/Helicone/helicone) [![GitHub stars](https://img.shields.io/github/stars/Helicone/helicone?style=social&color=white)](https://github.com/Helicone/helicone/stargazers)
+### 6. 🛡️ [Helicone](https://github.com/Helicone/helicone) [![GitHub_Stars](https://img.shields.io/github/stars/Helicone/helicone?style=social&color=white)](https://github.com/Helicone/helicone/stargazers)
 * **License:** Apache-2.0 | **Stars:** ~6.2k+ ⭐
 * **Core Capabilities:** Developer-first LLM gateway and observability platform with built-in prompt tracking, version comparison, smart caching, and rate limiting.
 * **Why Teams Choose It:** Integrates via a single base URL change in your OpenAI or Anthropic SDK, instantly capturing prompt latency, cost, and template parameters.
 
-### 7. 🤖 [Coze-Loop](https://github.com/coze-dev/coze-loop) [![GitHub stars](https://img.shields.io/github/stars/coze-dev/coze-loop?style=social&color=white)](https://github.com/coze-dev/coze-loop/stargazers)
+### 7. 🤖 [Coze-Loop](https://github.com/coze-dev/coze-loop) [![GitHub_Stars](https://img.shields.io/github/stars/coze-dev/coze-loop?style=social&color=white)](https://github.com/coze-dev/coze-loop/stargazers)
 * **License:** Apache-2.0 | **Stars:** ~5.8k+ ⭐
 * **Core Capabilities:** Full-lifecycle AI agent optimization and prompt management platform providing dynamic prompt templates, interactive debugging, and multi-turn conversation evaluation.
 * **Why Teams Choose It:** Tailored for complex multi-agent systems where prompts dynamically incorporate tool definitions and state variables.
 
-### 8. 📚 [OpenPrompt](https://github.com/thunlp/OpenPrompt) [![GitHub stars](https://img.shields.io/github/stars/thunlp/OpenPrompt?style=social&color=white)](https://github.com/thunlp/OpenPrompt/stargazers)
+### 8. 📚 [OpenPrompt](https://github.com/thunlp/OpenPrompt) [![GitHub_Stars](https://img.shields.io/github/stars/thunlp/OpenPrompt?style=social&color=white)](https://github.com/thunlp/OpenPrompt/stargazers)
 * **License:** Apache-2.0 | **Stars:** ~4.9k+ ⭐
 * **Core Capabilities:** Research-standard open-source framework for prompt-learning and prompt tuning over pre-trained language models developed by Tsinghua University (THUNLP).
 * **Why Teams Choose It:** Highly modular design supporting soft prompts, hard prompt templates, verbalizers, and prompt tuning algorithms.
 
-### 9. 🔬 [Agenta](https://github.com/agenta-ai/agenta) [![GitHub stars](https://img.shields.io/github/stars/agenta-ai/agenta?style=social&color=white)](https://github.com/agenta-ai/agenta/stargazers)
+### 9. 🔬 [Agenta](https://github.com/agenta-ai/agenta) [![GitHub_Stars](https://img.shields.io/github/stars/agenta-ai/agenta?style=social&color=white)](https://github.com/agenta-ai/agenta/stargazers)
 * **License:** MIT | **Stars:** ~4.8k+ ⭐
 * **Core Capabilities:** Open-source developer-centric prompt engineering and LLMOps platform. Provides a collaborative prompt playground, version control with branching and deployment environments, and custom evaluator suites.
 * **Why Teams Choose It:** Empowers non-technical domain experts to iterate and test prompts in the UI while developers consume versioned prompts via clean REST/Python SDKs.
 
-### 10. 🌐 [Latitude](https://github.com/latitude-dev/latitude-llm) [![GitHub stars](https://img.shields.io/github/stars/latitude-dev/latitude-llm?style=social&color=white)](https://github.com/latitude-dev/latitude-llm/stargazers)
+### 10. 🌐 [Latitude](https://github.com/latitude-dev/latitude-llm) [![GitHub_Stars](https://img.shields.io/github/stars/latitude-dev/latitude-llm?style=social&color=white)](https://github.com/latitude-dev/latitude-llm/stargazers)
 * **License:** LGPL-3.0 | **Stars:** ~4.7k+ ⭐
 * **Core Capabilities:** AI engineering platform with an eval-driven reliability loop. Captures prompts, inputs/outputs, and costs from live traffic, grouping failure clusters to guide prompt optimization (GEPA).
 * **Why Teams Choose It:** Closes the feedback loop between production prompt failures and iterative prompt engineering improvements.
 
-### 11. ⚙️ [Promptify](https://github.com/promptslab/Promptify) [![GitHub stars](https://img.shields.io/github/stars/promptslab/Promptify?style=social&color=white)](https://github.com/promptslab/Promptify/stargazers)
+### 11. ⚙️ [Promptify](https://github.com/promptslab/Promptify) [![GitHub_Stars](https://img.shields.io/github/stars/promptslab/Promptify?style=social&color=white)](https://github.com/promptslab/Promptify/stargazers)
 * **License:** Apache-2.0 | **Stars:** ~4.6k+ ⭐
 * **Core Capabilities:** Prompt engineering and prompt versioning library to turn unstructured model generation into strictly typed structured JSON outputs, NER entities, and classifications.
 * **Why Teams Choose It:** Simple Pythonic API that turns raw LLM completions into reliable downstream data structures.
 
-### 12. ⚡ [Pezzo](https://github.com/pezzolabs/pezzo) [![GitHub stars](https://img.shields.io/github/stars/pezzolabs/pezzo?style=social&color=white)](https://github.com/pezzolabs/pezzo/stargazers)
+### 12. ⚡ [Pezzo](https://github.com/pezzolabs/pezzo) [![GitHub_Stars](https://img.shields.io/github/stars/pezzolabs/pezzo?style=social&color=white)](https://github.com/pezzolabs/pezzo/stargazers)
 * **License:** Apache-2.0 | **Stars:** ~3.3k+ ⭐
 * **Core Capabilities:** Developer-first prompt management and LLMOps platform designed to streamline prompt design, instant publishing, and observability without redeploying backend code.
 * **Why Teams Choose It:** First-class SDK support for Node.js, TypeScript, and Python with immediate prompt synchronization across services.
 
-### 13. 📐 [Prompt Engine](https://github.com/microsoft/prompt-engine) [![GitHub stars](https://img.shields.io/github/stars/microsoft/prompt-engine?style=social&color=white)](https://github.com/microsoft/prompt-engine/stargazers)
+### 13. 📐 [Prompt Engine](https://github.com/microsoft/prompt-engine) [![GitHub_Stars](https://img.shields.io/github/stars/microsoft/prompt-engine?style=social&color=white)](https://github.com/microsoft/prompt-engine/stargazers)
 * **License:** MIT | **Stars:** ~2.8k+ ⭐
 * **Core Capabilities:** Microsoft utility library for creating, managing, and rendering few-shot prompts and conversational dialogues for LLMs in JavaScript, TypeScript, and Python.
 * **Why Teams Choose It:** Lightweight, zero-dependency utility that guarantees clean few-shot formatting and token budget adherence.
 
-### 14. 🔌 [PromptLayer Library](https://github.com/MagnivOrg/prompt-layer-library) [![GitHub stars](https://img.shields.io/github/stars/MagnivOrg/prompt-layer-library?style=social&color=white)](https://github.com/MagnivOrg/prompt-layer-library/stargazers)
+### 14. 🔌 [PromptLayer Library](https://github.com/MagnivOrg/prompt-layer-library) [![GitHub_Stars](https://img.shields.io/github/stars/MagnivOrg/prompt-layer-library?style=social&color=white)](https://github.com/MagnivOrg/prompt-layer-library/stargazers)
 * **License:** MIT | **Stars:** ~780+ ⭐
 * **Core Capabilities:** Official open-source client libraries for PromptLayer, wrapping OpenAI and Anthropic SDK calls to track prompt versions, template inputs, and request IDs.
 * **Why Teams Choose It:** Enables immediate request-level logging and prompt version governance with single-line SDK interception.
 
-### 15. 🗄️ [RESTai](https://github.com/apocas/restai) [![GitHub stars](https://img.shields.io/github/stars/apocas/restai?style=social&color=white)](https://github.com/apocas/restai/stargazers)
+### 15. 🗄️ [RESTai](https://github.com/apocas/restai) [![GitHub_Stars](https://img.shields.io/github/stars/apocas/restai?style=social&color=white)](https://github.com/apocas/restai/stargazers)
 * **License:** Apache-2.0 | **Stars:** ~515+ ⭐
 * **Core Capabilities:** Open-source AIaaS (AI as a Service) platform supporting local LLMs (Ollama, vLLM) and commercial APIs, featuring built-in prompt versioning, vector search, and block-based flow design.
 * **Why Teams Choose It:** Complete self-hosted AI middleware with integrated prompt storage and multi-provider model routing.
 
-### 16. 💾 [Cuebit](https://github.com/iRahulPandey/Cuebit) [![GitHub stars](https://img.shields.io/github/stars/iRahulPandey/Cuebit?style=social&color=white)](https://github.com/iRahulPandey/Cuebit/stargazers)
+### 16. 💾 [Cuebit](https://github.com/iRahulPandey/Cuebit) [![GitHub_Stars](https://img.shields.io/github/stars/iRahulPandey/Cuebit?style=social&color=white)](https://github.com/iRahulPandey/Cuebit/stargazers)
 * **License:** Apache-2.0 | **Stars:** ~1 ⭐
 * **Core Capabilities:** Open-source, local-first prompt registry built specifically for GenAI developers. Supports prompt version lineage, environment aliases (`summarizer-prod`), template variable validation, Streamlit UI, and FastAPI REST endpoints.
 * **Why Teams Choose It:** Complete local sovereignty—run `cuebit serve` on your developer machine with zero cloud dependencies or external credentials.
